@@ -62,7 +62,7 @@ Python, OpenCV, NumPy, Pillow, Tesseract/pytesseract, RapidFuzz, openpyxl, and p
 
 ## Security and privacy
 
-Tracked demonstration data is generated and synthetic. Full OCR text, phone numbers, addresses, reports, `.env` files, local configs, and output folders are excluded. See [security](docs/security.md).
+Tracked demonstration data is generated and synthetic. Full OCR text, phone numbers, addresses, reports, `.env` files, local configs, and output folders are excluded.
 
 ## Current limitations
 
@@ -71,10 +71,6 @@ Tracked demonstration data is generated and synthetic. Full OCR text, phone numb
 - Tesseract is installed separately.
 - Synthetic fixtures demonstrate behavior; they do not establish production accuracy.
 - Thresholds have not been calibrated on a representative production corpus.
-
-## Production evolution
-
-The CLI can evolve into a queued, idempotent service with encrypted object storage, access controls, template/version registries, telemetry, reviewer tooling, calibrated models, and drift monitoring. See [production evolution](docs/production-evolution.md).
 
 ## Repository layout
 
