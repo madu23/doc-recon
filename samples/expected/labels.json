@@ -1,0 +1,62 @@
+[
+  {
+    "reference": "DEMO00000001",
+    "status": "SUCCESSFUL",
+    "case": "complete"
+  },
+  {
+    "reference": "DEMO00000002",
+    "status": "SUCCESSFUL",
+    "case": "complete"
+  },
+  {
+    "reference": "DEMO00000003",
+    "status": "SUCCESSFUL",
+    "case": "complete"
+  },
+  {
+    "reference": "DEMO00000004",
+    "status": "REJECTED",
+    "case": "complete"
+  },
+  {
+    "reference": "DEMO00000005",
+    "status": "REJECTED",
+    "case": "wrong reference"
+  },
+  {
+    "reference": "DEMO00000006",
+    "status": "REJECTED",
+    "case": "missing receiver"
+  },
+  {
+    "reference": "DEMO00000007",
+    "status": "REJECTED",
+    "case": "missing signature"
+  },
+  {
+    "reference": "DEMO00000008",
+    "status": "REJECTED",
+    "case": "missing date"
+  },
+  {
+    "reference": "DEMO00000009",
+    "status": "REJECTED",
+    "case": "missing all"
+  },
+  {
+    "reference": "DEMO00000010",
+    "status": "REVIEW",
+    "case": "unreadable"
+  },
+  {
+    "reference": "DEMO00000011",
+    "status": "REJECTED",
+    "case": "missing file"
+  },
+  {
+    "reference": "DEMO00000012",
+    "status": "REVIEW",
+    "case": "duplicate file"
+  }
+]
